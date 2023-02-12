@@ -16,3 +16,15 @@
 @import './sections/projects';
 
 @import './vendor/css/font-awesome.min.css';
+
+#hero {
+  // background: url('../images/heroBack.jpg');
+  // background-position: center;
+  // background-size: 100vw 100vh;
+  
+  background: url('../images/pfolioBack.png');
+  // background-attachment: fixed;
+  // background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160vw 110vh;
+}
