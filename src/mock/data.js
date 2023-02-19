@@ -28,30 +28,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'Axion.png',
+    title: 'Footwear',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://visionary-stardust-eae08b.netlify.app',
+    repo: 'https://github.com/elimareg/Footwear', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'WeatherApp.png',
+    title: 'Weather',
+    info: '',
+    info2: '',
+    url: 'https://rad-bubblegum-35b619.netlify.app',
+    repo: 'https://github.com/elimareg/weather', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Current one',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/elimareg/pfolio', // if no repo, the button will not show up
   },
 ];
 
