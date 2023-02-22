@@ -6,6 +6,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-image`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,6 +19,13 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `readme`,
+        path: `${__dirname}/src/mock/readme`,
       },
     },
     {
