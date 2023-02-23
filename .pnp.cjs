@@ -60,8 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:18.2.0"],\
             ["react-github-btn", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.4.0"],\
             ["react-helmet", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:6.1.0"],\
-            ["react-scroll", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.8.9"],\
-            ["react-tilt", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:0.1.4"]\
+            ["react-scroll", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.8.9"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -15988,8 +15987,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:18.2.0"],\
             ["react-github-btn", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.4.0"],\
             ["react-helmet", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:6.1.0"],\
-            ["react-scroll", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.8.9"],\
-            ["react-tilt", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:0.1.4"]\
+            ["react-scroll", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.8.9"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -17555,32 +17553,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "packagePeers": [\
             "@types/react",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["react-tilt", [\
-        ["npm:0.1.4", {\
-          "packageLocation": "./.yarn/cache/react-tilt-npm-0.1.4-cfcfb1a604-b5492a9963.zip/node_modules/react-tilt/",\
-          "packageDependencies": [\
-            ["react-tilt", "npm:0.1.4"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:0.1.4", {\
-          "packageLocation": "./.yarn/__virtual__/react-tilt-virtual-64e4c0b79c/0/cache/react-tilt-npm-0.1.4-cfcfb1a604-b5492a9963.zip/node_modules/react-tilt/",\
-          "packageDependencies": [\
-            ["react-tilt", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:0.1.4"],\
-            ["@types/react", null],\
-            ["@types/react-dom", null],\
-            ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:18.2.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/react-dom",\
-            "@types/react",\
-            "react-dom",\
             "react"\
           ],\
           "linkType": "HARD"\
