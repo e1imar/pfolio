@@ -25,9 +25,9 @@ const Header = () => {
       <Container>
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            <span className="text-color-main">{name || 'Elmar'}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {subtitle || "I'm a web developer."}
           </h1>
           {/* <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
