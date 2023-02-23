@@ -60,7 +60,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:18.2.0"],\
             ["react-github-btn", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.4.0"],\
             ["react-helmet", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:6.1.0"],\
-            ["react-reveal", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.2.2"],\
             ["react-scroll", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.8.9"],\
             ["react-tilt", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:0.1.4"]\
           ],\
@@ -15989,7 +15988,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:18.2.0"],\
             ["react-github-btn", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.4.0"],\
             ["react-helmet", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:6.1.0"],\
-            ["react-reveal", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.2.2"],\
             ["react-scroll", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.8.9"],\
             ["react-tilt", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:0.1.4"]\
           ],\
@@ -17479,29 +17477,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-refresh-npm-0.14.0-78ef5eeb73-dc69fa8c99.zip/node_modules/react-refresh/",\
           "packageDependencies": [\
             ["react-refresh", "npm:0.14.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["react-reveal", [\
-        ["npm:1.2.2", {\
-          "packageLocation": "./.yarn/cache/react-reveal-npm-1.2.2-27b882f87d-c15f62ed8b.zip/node_modules/react-reveal/",\
-          "packageDependencies": [\
-            ["react-reveal", "npm:1.2.2"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.2.2", {\
-          "packageLocation": "./.yarn/__virtual__/react-reveal-virtual-6a473dffa6/0/cache/react-reveal-npm-1.2.2-27b882f87d-c15f62ed8b.zip/node_modules/react-reveal/",\
-          "packageDependencies": [\
-            ["react-reveal", "virtual:f297d97b165197a242feeba3230d6811637fe9b174ce9c2b7a7db6ee2783e385b8ba7c212c7ff983c66049aea76095982c86777aaddd78a469c9b178a72bb1a9#npm:1.2.2"],\
-            ["@types/react", null],\
-            ["prop-types", "npm:15.8.1"],\
-            ["react", "npm:18.2.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/react",\
-            "react"\
           ],\
           "linkType": "HARD"\
         }]\
