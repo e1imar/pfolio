@@ -44,15 +44,15 @@ export const projectsData = [
     url: 'https://rad-bubblegum-35b619.netlify.app',
     repo: 'https://github.com/elimareg/weather', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'This portfolio',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/elimareg/pfolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'This portfolio',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/elimareg/pfolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA

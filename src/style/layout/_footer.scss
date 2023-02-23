@@ -1,5 +1,9 @@
 .footer {
-  background-color: $dark-grey;
+  // background-color: $dark-grey;
+  background: url('../images/pfolioTop.png');
+  background-position: center;
+  background-size: 160vw;
+  background-repeat: repeat-y;
   color: $white-color;
   padding: 4.8rem 0;
 
