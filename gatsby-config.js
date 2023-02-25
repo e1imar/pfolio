@@ -35,7 +35,7 @@ module.exports = {
         short_name: `Elmar`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#e5e2d2`,
         display: `standalone`,
         icon: 'src/images/letter-e.png',
       },
