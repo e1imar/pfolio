@@ -36,6 +36,10 @@ const Footer = () => {
               );
             })}
         </div>
+        <p className='footer__text'>This portfolio created on top of <a href="https://github.com/elimareg/pfolio" target="_blank" rel="noopener noreferrer">
+          Gatsby template
+        </a>
+        </p>
         {isEnabled && <GithubButtons />}
       </Container>
     </footer>
