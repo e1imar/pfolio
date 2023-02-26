@@ -7,6 +7,14 @@ const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
 
+  const text = <h1 className="hero-title">
+    {title || 'Hi, my name is'}{' '}
+    {/* <span className="text-color-main">{name || 'Elmar'}</span> */}
+    {name || 'Elmar'}
+    <br />
+    {subtitle || "I'm a web developer."}
+  </h1>
+
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -18,17 +26,49 @@ const Header = () => {
       setIsMobile(true);
       setIsDesktop(false);
     }
+
+    const title = document.querySelector('.error_title')
+
+    const light = document.onmousemove = function(e) {
+      let x = e.pageX - window.innerWidth/2;
+      let y = e.pageY - window.innerHeight/2;
+      
+      title.style.setProperty('--x', x + 'px')
+      title.style.setProperty('--y', y + 'px')
+    }
+
+    document.addEventListener('mousemove', light)
+
+    const shadow = function(e) {
+      let x = e.pageX - window.innerWidth/2;
+      let y = e.pageY - window.innerHeight/2;
+
+      let rad = Math.atan2(y, x).toFixed(2); 
+      let length = Math.round(Math.sqrt((Math.pow(x,2))+(Math.pow(y,2)))/10); 
+
+      let x_shadow = Math.round(length * Math.cos(rad));
+      let y_shadow = Math.round(length * Math.sin(rad));
+
+      title.style.setProperty('--x-shadow', - x_shadow + 'px')
+      title.style.setProperty('--y-shadow', - y_shadow + 'px')
+
+    }
+
+    title.addEventListener('mousemove', shadow)
+
+    return () => {
+      document.removeEventListener('mousemove', light)
+      title.removeEventListener('mousemove', shadow)
+    }
   }, []);
 
   return (
     <section id="hero" className="jumbotron">
-      <Container>
-          <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Elmar'}</span>
-            <br />
-            {subtitle || "I'm a web developer."}
-          </h1>
+      {/* <Container> */}
+          <div className="error_title">
+            <div className='innerBox'>{text}</div>
+            {text}
+          </div>
           {/* <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
@@ -36,7 +76,7 @@ const Header = () => {
               </Link>
             </span>
           </p> */}
-      </Container>
+      {/* </Container> */}
     </section>
   );
 };
