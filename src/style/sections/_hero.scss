@@ -65,12 +65,6 @@
   }
 
   .error_title { 
-    // $primary-color: #32C983;
-    // $secondary-color: #25F193;
-    // $black: #343434;
-    // $dark-black: #1A1A1A;
-    // $gradient: linear-gradient(to top, $primary-color, $secondary-color);
-    // $black-gradient: linear-gradient(-225deg, $dark-black, $black);
     cursor: url('../images/lamp-svgrepo-com.svg'), auto;
     display: flex;
     align-items: center;
@@ -88,17 +82,5 @@
 			transition: all 0.2s ease;
 			text-shadow: var(--x-shadow) var(--y-shadow) 12px black;
 		}
-		  .innerBox{
-			position: absolute;
-			top: 2rem;
-			left: 2rem;
-			background-image: radial-gradient(circle closest-side, rgba(white, 0.05), transparent);
-			background-position: var(--x) var(--y);
-			background-repeat: no-repeat;
-			text-shadow: none; 
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;  
-			transition: all 0.1s ease;
-		  }
 	}
 }

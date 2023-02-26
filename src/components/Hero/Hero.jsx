@@ -65,10 +65,7 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       {/* <Container> */}
-          <div className="error_title">
-            <div className='innerBox'>{text}</div>
-            {text}
-          </div>
+          <div className="error_title">{text}</div>
           {/* <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
