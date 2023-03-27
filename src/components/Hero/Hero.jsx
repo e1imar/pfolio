@@ -7,14 +7,6 @@ const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
 
-  const text = <h1 className="hero-title">
-    {title || 'Hi, my name is'}{' '}
-    {/* <span className="text-color-main">{name || 'Elmar'}</span> */}
-    {name || 'Elmar'}
-    <br />
-    {subtitle || "I'm a web developer."}
-  </h1>
-
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -65,7 +57,15 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       {/* <Container> */}
-          <div className="error_title">{text}</div>
+          <div className="error_title">
+            <h1 className="hero-title">
+              {title || 'Hi, my name is'}{' '}
+              {/* <span className="text-color-main">{name || 'Elmar'}</span> */}
+              {name || 'Elmar'}
+              <br />
+              {subtitle || "I'm a web developer."}
+            </h1>
+          </div>
           {/* <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
