@@ -76,6 +76,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/e1imar',
     },
+    {
+      id: nanoid(),
+      name: 'telegram',
+      url: 'https://t.me/e1imar',
+    },
   ],
 };
 
