@@ -33,7 +33,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://visionary-stardust-eae08b.netlify.app',
-    repo: 'https://github.com/elimareg/Footwear', // if no repo, the button will not show up
+    repo: 'https://github.com/e1imar/Footwear', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,24 +42,15 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://rad-bubblegum-35b619.netlify.app',
-    repo: 'https://github.com/elimareg/weather', // if no repo, the button will not show up
-  },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: 'This portfolio',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/elimareg/pfolio', // if no repo, the button will not show up
-  // },
+    repo: 'https://github.com/e1imar/weather', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: 'I\'d love to hear from you!',
   btn: 'Send an email',
-  email: 'elimareg@gmail.com',
+  email: 'e1imar@outlook.com',
 };
 
 // FOOTER DATA
@@ -83,7 +74,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/elimareg',
+      url: 'https://github.com/e1imar',
     },
   ],
 };
