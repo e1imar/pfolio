@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Footwear',
     info: '',
     info2: '',
-    url: 'https://visionary-stardust-eae08b.netlify.app',
+    url: 'https://ftwear.netlify.app',
     repo: 'https://github.com/e1imar/Footwear', // if no repo, the button will not show up
   },
   {
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Weather',
     info: '',
     info2: '',
-    url: 'https://rad-bubblegum-35b619.netlify.app',
+    url: 'https://weatha.netlify.app',
     repo: 'https://github.com/e1imar/weather', // if no repo, the button will not show up
   }
 ];
