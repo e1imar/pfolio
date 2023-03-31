@@ -1,8 +1,8 @@
-#Web portfolio
+# Web portfolio
 
 This is a repository for my web portfolio, which showcases my web development skills and projects. The portfolio is built using a template of Gatsby framework, a fast and efficient static site generator.
 
-##Technologies used
+## Technologies used
 
 - [Gatsby](https://www.gatsbyjs.org/) - A React-based framework for building fast and efficient static websites
 - [GraphQL](https://graphql.org/) - A query language for APIs that allows for efficient fetching of data
