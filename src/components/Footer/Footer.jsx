@@ -36,7 +36,7 @@ const Footer = () => {
               );
             })}
         </div>
-        <p className='footer__text'>This portfolio created on top of <a href="https://github.com/elimareg/pfolio" target="_blank" rel="noopener noreferrer">
+        <p className='footer__text'>This portfolio made on <a href="https://github.com/e1imar/pfolio" target="_blank" rel="noopener noreferrer">
           Gatsby template
         </a>
         </p>
