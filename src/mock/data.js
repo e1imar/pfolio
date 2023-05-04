@@ -43,15 +43,6 @@ export const projectsData = [
     info2: '',
     url: 'https://weatha.netlify.app',
     repo: 'https://github.com/e1imar/weather', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'spshop.png',
-    title: 'SPshop',
-    info: '',
-    info2: '',
-    url: 'hhttps://spsh0p.vercel.app/',
-    repo: 'https://github.com/e1imar/sp.shop', // if no repo, the button will not show up
   }
 ];
 
