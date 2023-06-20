@@ -7,9 +7,9 @@ Responsive web design
 
 ## Technologies used
 
-- [React](https://reactjs.org/) single page application
-- [React Router](https://reacttraining.com/react-router/web/guides/philosophy)
-- [GSAP](https://greensock.com/gsap/) JavaScript animation tool
-- [jQuery](https://jquery.com/) JavaScript library
-- [Sass](https://sass-lang.com/) CSS extension language
-- [MUI](https://mui.com/) React UI tools
+- [React](https://reactjs.org/) - single page application
+- [React Router](https://reacttraining.com/react-router/web/guides/philosophy) - client side routing
+- [GSAP](https://greensock.com/gsap/) - JavaScript animation tool
+- [jQuery](https://jquery.com/) - JavaScript library
+- [Sass](https://sass-lang.com/) - CSS extension language
+- [MUI](https://mui.com/) - React UI tools

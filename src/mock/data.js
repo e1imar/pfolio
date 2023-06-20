@@ -37,6 +37,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'reservation.png',
+    title: 'Table reservation',
+    info: '',
+    info2: '',
+    url: 'https://reservate.vercel.app',
+    repo: 'https://github.com/e1imar/reservations', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'WeatherApp.png',
     title: 'Weather',
     info: '',
