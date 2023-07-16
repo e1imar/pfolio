@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Table reservation',
     info: '',
     info2: '',
-    url: 'https://reservate.vercel.app',
+    url: 'https://reservate.vercel.app/signin',
     repo: 'https://github.com/e1imar/reservations', // if no repo, the button will not show up
   },
   {
